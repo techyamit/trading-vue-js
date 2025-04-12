@@ -55,7 +55,7 @@ export default class Botbar {
                 this.ctx.globalAlpha = 0.85
             }
             this.ctx.textAlign = 'center'
-            this.ctx.fillText(lbl, p[0], 18)
+            this.ctx.fillText("A1- " + lbl, p[0], 18)
             this.ctx.globalAlpha = 1
 
         }
@@ -95,7 +95,7 @@ export default class Botbar {
 
         this.ctx.fillStyle = this.$p.colors.textHL
         this.ctx.textAlign = 'center'
-        this.ctx.fillText(lbl, cursor, y + 16)
+        this.ctx.fillText("A2- " + lbl, cursor, y + 16)
 
     }
 
